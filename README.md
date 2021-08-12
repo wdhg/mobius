@@ -30,5 +30,5 @@ In the future I might add optional parameters for fun (e.g. university, subject/
 ## Rules
 
 1. You must be (or have been) an active member of a UK university.
-2. Members *should* link back to the webring from their websites (this is not enforced for now).
+2. Members should link back to the webring from their websites (this is not enforced for now).
 3. Your link should point to your personal site, but if you do not have one then a GitHub profile or equivalent is acceptable.
