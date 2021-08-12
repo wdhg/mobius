@@ -10,7 +10,7 @@ The webring contains a list of links to each members site and (ideally) each mem
 
 ## How can I join?
 
-Fork this repo and submit a pull request adding your site to the end of the list of sites in `sites.toml`:
+Fork this repo and submit a pull request adding your site to the end of the list of sites in [sites.toml](sites.toml):
 
 ```toml
 #...
