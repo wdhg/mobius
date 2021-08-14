@@ -25,6 +25,12 @@ url = "<YOUR URL HERE>"   # required
 
 When merged, the build pipeline will automatically update the webring page.
 
+To link back to the webring, add the following line to your website:
+
+```html
+<a href='https://mobius.wdhg.me'><img src='https://mobius.wdhg.me/mobius_white_64.png'/></a>
+```
+
 In the future I might add optional parameters for fun (e.g. university, subject/s, etc).
 
 ## Rules
