@@ -19,10 +19,6 @@
         color: #d0d0d0;
       }
 
-      li {
-        list-style-type: none;
-      }
-
       .content {
         margin-left: 20px;
       }
@@ -31,13 +27,13 @@
   <body>
     <div class='content'>
       <h1>Mobius</h1>
-      <ul>
+      <ol>
         {% for site in sites -%}
         <li>
           <a href="{{ site.url }}">{{ site.name }}</a>
         </li>
         {% endfor %}
-      </ul>
+      </ol>
     </div>
   </body>
 </html>
