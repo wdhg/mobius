@@ -1,4 +1,8 @@
 [[sites]]
+name = "Dhaval Soneji"
+url = "https://dhavalsoneji.com/"
+
+[[sites]]
 name = "William Grant"
 url = "https://wdhg.me"
 
@@ -9,7 +13,3 @@ url = "https://stefan.radzi.uk/"
 [[sites]]
 name = "Noor Sawhney"
 url = "https://noor.fyi/"
-
-[[sites]]
-name = "Dhaval Soneji"
-url = "https://dhavalsoneji.com/"
