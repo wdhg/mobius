@@ -23,15 +23,21 @@ url = "<YOUR URL HERE>"   # required
 # EOF
 ```
 
+(In the future I might add extra fields e.g. university, subject/s, etc).
+
 When merged, the build pipeline will automatically update the webring page.
 
-To link back to the webring, add the following line to your website:
+To link back to the webring, add one of the following lines to your website:
 
 ```html
+<!-- For a black logo -->
+<a href='https://mobius.wdhg.me'><img src='https://mobius.wdhg.me/mobius_64.png'/></a>
+<!-- For a white logo --> 
 <a href='https://mobius.wdhg.me'><img src='https://mobius.wdhg.me/mobius_white_64.png'/></a>
 ```
 
-In the future I might add optional parameters for fun (e.g. university, subject/s, etc).
+Each coloured icon comes in two sizes (64px and 128px) and as vector graphics (see [public](public))
+
 
 ## Rules
 
