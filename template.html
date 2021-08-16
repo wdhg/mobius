@@ -20,22 +20,19 @@
       }
 
       .content {
-        width: auto;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
+        padding-top: 40px;
+        width: 100%;
         text-align: center;
       }
 
       .content h1 {
-        margin: 0;
         font-size: 50px;
       }
 
-      ol {
-        text-align: left;
+      ul {
+        display: inline-block;
+        padding: 0;
+        list-style-type: none;
       }
 
       .github {
@@ -52,13 +49,13 @@
   <body>
     <div class='content'>
       <h1>Mobius</h1>
-      <ol>
+      <ul>
         {% for site in sites -%}
         <li>
           <a href="{{ site.url }}">{{ site.name }}</a>
         </li>
         {% endfor %}
-      </ol>
+      </ul>
     </div>
     <a class='github' href='https://github.com/wdhg/mobius'><img src='./GitHub-Mark-Light-64px.png'/></a>
   </body>
