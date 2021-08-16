@@ -23,6 +23,8 @@ url = "<YOUR URL HERE>"   # required
 # EOF
 ```
 
+(In the future I might add extra fields e.g. university, subject/s, etc).
+
 When merged, the build pipeline will automatically update the webring page.
 
 To link back to the webring, add one of the following lines to your website:
@@ -36,7 +38,6 @@ To link back to the webring, add one of the following lines to your website:
 
 Each coloured icon comes in two sizes (64px and 128px) and as vector graphics (see [public](public))
 
-In the future I might add optional parameters for fun (e.g. university, subject/s, etc).
 
 ## Rules
 
