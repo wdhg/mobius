@@ -1,5 +1,6 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -20,39 +21,42 @@
       }
 
       .content {
-        width: auto;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
+        padding-top: 40px;
+        width: 100%;
         text-align: center;
       }
 
       .content h1 {
-        margin: 0;
-        font-size: 50px;
+        font-size: 3.5rem;
       }
 
-      ol {
-        text-align: left;
+      ul {
+        display: inline-block;
+        padding: 0;
+        list-style-type: none;
       }
 
       .github {
         position: absolute;
-        top: 20px;
-        right: 20px;
+        left: 50%;
+        bottom: 2em;
+        transform: translateX(-50%);
       }
 
       .github img {
         width: 40px;
+      }
+
+      li {
+        font-size: 1.2rem;
+        padding-bottom: 0.6rem;
       }
     </style>
   </head>
   <body>
     <div class='content'>
       <h1>Mobius</h1>
-      <ol>
+      <ul>
         <li>
           <a href="https://wdhg.me">William Grant</a>
         </li>
@@ -66,7 +70,7 @@
           <a href="https://dhavalsoneji.com/">Dhaval Soneji</a>
         </li>
         
-      </ol>
+      </ul>
     </div>
     <a class='github' href='https://github.com/wdhg/mobius'><img src='./GitHub-Mark-Light-64px.png'/></a>
   </body>
