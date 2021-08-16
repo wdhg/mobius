@@ -20,7 +20,33 @@
       }
 
       .content {
-        margin-left: 20px;
+        width: auto;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      .content h1 {
+        margin: 0;
+        font-size: 50px;
+      }
+
+      ol {
+        text-align: left;
+      }
+
+      .github {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        /* transform: translate(-50%, 0); */
+      }
+
+      .github img {
+        width: 40px;
       }
     </style>
   </head>
@@ -43,5 +69,6 @@
         
       </ol>
     </div>
+    <a class='github' href='https://github.com/wdhg/mobius'><img src='./GitHub-Mark-Light-64px.png'/></a>
   </body>
 </html>
