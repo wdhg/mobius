@@ -31,13 +31,18 @@ To link back to the webring, add one of the following lines to your website:
 
 ```html
 <!-- For a black logo -->
-<a href='https://mobius.wdhg.me'><img src='https://mobius.wdhg.me/mobius_64.png'/></a>
+<a href='https://mobius.wdhg.me'><img id='mobius' src='https://mobius.wdhg.me/mobius_64.png'/></a>
 <!-- For a white logo --> 
-<a href='https://mobius.wdhg.me'><img src='https://mobius.wdhg.me/mobius_white_64.png'/></a>
+<a href='https://mobius.wdhg.me'><img id='mobius' src='https://mobius.wdhg.me/mobius_white_64.png'/></a>
 ```
 
 Each coloured icon comes in two sizes (64px and 128px) and as vector graphics (see [public](public))
 
+To get the icon to animate on mouse over, add the following line afterwards:
+
+```html
+<script src='https://mobius.wdhg.me/spin.js'></script>
+```
 
 ## Rules
 
