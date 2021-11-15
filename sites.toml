@@ -3,6 +3,10 @@ name = "William Grant"
 url = "https://wdhg.me"
 
 [[sites]]
+name = "Andreea Cojocea"
+url = "https://andreea.codes/"
+
+[[sites]]
 name = "Stefan Radziuk"
 url = "https://stefan.radzi.uk/"
 
