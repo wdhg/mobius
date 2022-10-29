@@ -1,5 +1,7 @@
 # mobius
 
+[This project is dead]
+
 A modern webring for universities.
 
 ## What / why?
